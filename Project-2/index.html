@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job-Application-WebPage</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply-box">
+          <h1>Job Application <span class = "title">(Web)</span></h1>
+           <form action ="">
+              <div class="form_container">
+
+                <div class="form_context">
+                    <label for ="first-name">First Name :</label>
+                    <input id = first-name name = "first-name" placeholder=" Enter First Name...">
+                    </div>
+
+                    <div class="form_context">
+                    <label for ="last-name">Last Name :</label>
+                    <input id = "last-name" name = "Last-name" placeholder=" Enter Last Name...">
+                </div>
+
+                <div class="form_context">
+                    <label for ="email"> Email :</label>
+                    <input   type = email
+                    id = "email" name = "email" placeholder=" Enter Your email..">
+                </div>
+
+                <div class="form_context">
+                    <label for ="job-role"> Job-Role :</label>
+                    <select id = "job-role" name="job-role">
+                        <option value = "">Select-Job-Role</option>
+                        <option value = "front-end">Front-End-Developer</option>
+                        <option value = "back-end">Back-End-Developer</option>
+                        <option value = "fullstack-dev">Full-Stack-Developer</option>
+                        <option value = "designer">UX-UI Designer</option>
+                     </select>
+                     </div>
+
+                    <div class="form_1">
+                    <label for ="Address"> Address :</label>
+                   <textarea 
+                   id=" Address" 
+                   name ="Address"
+                   rows="2" 
+                   cols="50"
+                   placeholder="Enter your Address.."
+                   ></textarea>
+                   </div>
+                   
+                   <div class="form_context">
+                    <label for ="City">City :</label>
+                    <input id = "City" name = "City" placeholder=" Enter city Name...">
+                    </div>
+
+                    <div class="form_context">
+                    <label for ="Pin-code">Pin-Code :</label>
+                    <input  type = "number" id = "Pin-code" name = "Pin-code" placeholder=" Enter city Pin-code...">
+                    </div>
+
+                    <div class="form_context">
+                    <label for ="Date">Start Date :</label>
+                    <input  type = "date" id = "Date" name = "Date">
+                    </div>
+
+                    <div class="form_context">
+                    <label for ="Upload">Upload your CV:</label>
+                    <input  type = "file" id = "Upload" name = "Upload">
+                    </div>
+                
+                </div>
+                <div class="button">
+                <button type = "Submit">Apply Now</button>
+              </div>
+              </div>
+
+              
+          </form>
+        </div>
+    </div>
+</body>
+</html>
